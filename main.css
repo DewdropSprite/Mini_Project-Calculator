@@ -1,3 +1,37 @@
 h1 {
     color:blueviolet  
 }
+
+.symbol{
+    color:blue
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:grid;
+}
+
+.calculator form input {
+    border:hotpink;
+    outline: 10;
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size:1.7em;
+    color:cornflowerblue;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.topnums{
+    background-color:bisque;
+
+}
